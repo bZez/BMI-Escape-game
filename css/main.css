@@ -1,0 +1,118 @@
+@font-face{
+    font-family:'clock';
+    src: url('fonts/Digit.TTF');
+}
+html, body {
+    height: 100%;
+    -webkit-user-select: none;
+    user-select: none;
+}
+body {
+    background: url('../img/matric.gif');
+    background-color: black;
+    background-size: cover;
+}
+a:hover,a,a:active {
+    text-decoration: none;
+    border: none;
+}
+/* CSS only for examples not required for centering */
+.container {
+    height: 100%;
+}
+.letter {
+    z-index: 999;
+    box-shadow: 0 0 5px rgba(0,0,0,.2);
+}
+.letter:hover {
+    transform: scale(1.5);
+}
+#check {
+    z-index: 1;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+.timer {
+    font-family: clock;
+    font-size: 600%;
+}
+.digit {
+    font-family: clock;
+}
+.bg-black {
+    background-color: black;
+}
+.bg-circuit {
+    background-image: url("../img/fond.jpg");
+}
+.border-green {
+    border: 3px solid limegreen;
+    box-shadow: 0 0 20px limegreen;
+}
+.input-black,.btn-black{
+    color: limegreen;
+    background-color: black;
+}
+.nav-green {
+    box-shadow: 0 0 5px black;
+}
+.nav2 {
+    margin-top:7vh;
+    background-color: limegreen;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 10px limegreen;
+}
+.green {
+    color: limegreen!important;
+}
+.bg-green {
+    background-color: limegreen !important;
+}
+.black {
+    color: black!important;
+}
+.bg-black-opacity {
+    background-color: rgba(0,0,0,.7);
+}
+.mailrow {
+    width: 100%;
+    border-bottom: 1px limegreen dotted;
+}
+.bg-pattern {
+    background-image: url("../img/gplay.png");
+}
+.shadow-black {
+    box-shadow: 0 0 10px black;
+}
+.shadow-black-inset {
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3) inset;
+}
+.msgText {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+footer {
+    margin-bottom: 5px;
+}
+.footer-item {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 3px 0 3px;
+    line-height: 50px;
+}
+.main-item {
+    background: url("../img/lock.png") no-repeat center;
+    background-size: 90%;
+    background-color: firebrick;
+}

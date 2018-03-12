@@ -1,0 +1,43 @@
+.pisteBlock{
+    height: 14%;
+    width: 100%;
+    margin: auto;
+    padding: 0.5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.pisteAudio {
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image: url('../casque/img/200w.gif');
+    background-position: center;
+}
+.completed {
+    background: none;
+}
+.sound{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    background-color: black;
+}
+audio{
+    margin-bottom: 25px;
+}
+.roueSelection{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.indice {
+    width: 100%;
+    height: 100%;
+    background: url("../casque/img/completed.png") no-repeat;
+    background-size: 90% 70%;
+    background-position: center top;
+}
